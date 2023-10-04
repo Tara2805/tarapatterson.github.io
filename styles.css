@@ -86,8 +86,7 @@ a:-webkit-any-link {
 
 /* Style the circular image */
 .circle-container {
-    width: 150pt;
-     
+    width: 15%;
     border-radius: 50%;
     background-color: #2C353C;
     display: flex;
@@ -111,19 +110,52 @@ a:-webkit-any-link {
     border: 8px solid #2C353C;
 }
 
-/*social icons*/
-
-.links-socials {
-    display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: flex-end; /* Align items to the bottom */
-  align-items: flex-start; /* Align items to the left */
-  margin: 3rem;
-  width: 100%;
-
+/* Apply styles to .circle-image when the screen width is 600px or less */
+@media screen and (max-width: 600px) {
+    .circle-image {
+        width: 200px; /* Use 'width' instead of 'img-size' */
+        height: 200px; /* You should specify height for an image */
+        left: 50%;
+        top: 30%;
+        border: 8px solid #2C353C;
+        transform: translate(-50%, -50%); /* Use 'transform' without vendor prefixes */
+        position: absolute; /* Position the image absolutely */
+    }
 }
 
-.white-side, .links-socials a {
+@media screen and (max-width: 900px) {
+    .circle-image img {
+        width: 300px; /* Set the width of the image */
+        height: auto; /* Maintain aspect ratio by setting 'height' to 'auto' */
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .circle-image img {
+        width: 350px; /* Set the width of the image */
+        height: auto; /* Maintain aspect ratio by setting 'height' to 'auto' */
+    }
+}
+
+
+/*social icons*/
+/*display css & positioning & margins */
+.links-socials {
+    display: flex;
+  flex-direction: row; /* Stack items vertically */
+  justify-content: flex-start; /* Align items to the bottom */
+  align-items: flex-end; /* Align items to the left */
+  margin: 1rem;
+  width: 100%;
+}
+
+/*add margins between each icon */
+.links-socials a {
+    margin-right: 1rem;
+}
+
+/*combined css to position icons at the bottom left of white container*/
+.white-side, .links-socials a{
     display: flex;
     justify-content: flex-start;
     position: botton-left;  /* Set the icon/link as absolute within the container */
