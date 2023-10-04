@@ -28,15 +28,15 @@ body {
 }
 
 /* Style the grey side */
-.grey-side {
-    flex: 1;
-    background-color: #d9ead3;
+.white-side {
+    flex: 30;
+    background-color: #fff;
 }
 
 /* Style the white side */
-.white-side {
-    flex: 1;
-    background-color: #fff;
+.green-side {
+    flex: 70;
+    background-color: #d9ead3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +55,8 @@ body {
     box-shadow: 0 0 0px rgba(44,53,60);
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    left: 30%;
+    transform: translate(-50%, -70%); 
 }
 
 .circle-image {
