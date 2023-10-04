@@ -1,0 +1,16 @@
+{
+  "name": "tarapatterson.github.io",
+  "version": "1.0.0",
+  "description": "[https://Tara2805.github.io/Tarapatterson/](https://Tara2805.github.io/Tarapatterson/)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
