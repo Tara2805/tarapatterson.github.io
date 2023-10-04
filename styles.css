@@ -45,18 +45,22 @@ body {
 
 /* Style the circular image */
 .circle-container {
-    width: 230px; 
-    height: 315px; 
+    width: 150pt;
+     
     border-radius: 50%;
     background-color: #2C353C;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('images/me.jpg'); /* Set your image URL here */
+    background-size: cover; /* Make the background image cover the container */
+    background-position: center; /* Center the background image */
     box-shadow: 0 0 0px rgba(44,53,60);
     position: absolute;
     top: 50%;
     left: 30%;
-    transform: translate(-50%, -70%); 
+    transform: translate(-50%, -70%);
+    -webkit-transform: translate(-50%, -70%); 
 }
 
 .circle-image {
