@@ -25,7 +25,6 @@ function App() {
         <ScrollToTop /> {/* Include the ScrollToTop component */}
         <Switch>
           {/* Define your routes using <Route> components */}
-          {/* For example: */}
           <Route path="/home" component={Home} />
           <Route path="/about" component={About} />
         </Switch>

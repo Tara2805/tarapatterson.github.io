@@ -14,18 +14,32 @@ body {
     background-color: #2C353C;
 }
 
+/*Scroll bar CSS*/
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
+
 ::-webkit-scrollbar-track {
     background: #555;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #555;
-  border-radius: 10px;
-  transition: 0.3s;
+    border-radius: 10px;
+    transition: 0.3s;
 }
+
+::-webkit-scrollbar-track {
+    background: #555;
+}
+
  /*Hide overflow on device screens*/
 @media screen and (max-width: 400px) {
     body {
@@ -40,6 +54,7 @@ body {
       }
   }
 
+/*SECTION 1*/
 /* Reset some default styles */
 * {
     margin: 0;
@@ -81,7 +96,7 @@ body {
     background-image: url('images/me.jpg'); /* Set your image URL here */
     background-size: cover; /* Make the background image cover the container */
     background-position: center; /* Center the background image */
-    box-shadow: 0 0 0px rgba(44,53,60);
+    box-shadow: 0 0 10px rgba(44,53,60);
     position: absolute;
     top: 50%;
     left: 30%;
@@ -93,7 +108,25 @@ body {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
-    border: 8px solid #d9ead3;
+    border: 8px solid #2C353C;
 }
 
+/*social icons*/
 
+.links-socials {
+    display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-end; /* Align items to the bottom */
+  align-items: flex-start; /* Align items to the left */
+  margin: 3rem;
+  width: 100%;
+
+}
+
+.white-side, .links-socials a {
+    display: flex;
+    justify-content: flex-start;
+    position: botton-left;  /* Set the icon/link as absolute within the container */
+    bottom: 0; /* Align the icon/link to the bottom */
+    left: 0; /* Align the icon/link to the left */
+}
