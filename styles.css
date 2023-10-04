@@ -17,20 +17,20 @@ body {
 /* Reset some default styles */
 * {
     margin: 0;
-    padding: 0;
+   /* padding: 0;*/
     box-sizing: border-box;
 }
 
 /* Define the split layout */
 .split-layout {
     display: flex;
-    height: 100vh;
+    height: 50vh;
 }
 
 /* Style the grey side */
 .grey-side {
     flex: 1;
-    background-color: #ccc;
+    background-color: #d9ead3;
 }
 
 /* Style the white side */
@@ -40,22 +40,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; 
+    position: relative;
 }
 
 /* Style the circular image */
 .circle-container {
-width: 200px; 
-    height: 200px; 
+    width: 230px; 
+    height: 315px; 
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #2C353C;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
+    box-shadow: 0 0 0px rgba(44,53,60);
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%); 
 }
 
@@ -63,6 +63,7 @@ width: 200px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
+    border: 8px solid #d9ead3;
 }
 
 
