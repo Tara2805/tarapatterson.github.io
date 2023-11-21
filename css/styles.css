@@ -7,18 +7,16 @@ body {
     font-family: 'Raleway', sans-serif;
     /*if more than 1 font family, input here */
     /*the one with inverted commas is because it is externally sourced*/
-    font-size: 17px;
-    font-weight: 300;
-    overflow-x: hidden;
     color: white;
     background-color: #2C353C;
+    
 }
 
 /*Scroll bar CSS*/
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {
@@ -32,7 +30,6 @@ a:-webkit-any-link {
 
 ::-webkit-scrollbar-thumb {
     background: #555;
-    border-radius: 10px;
     transition: 0.3s;
 }
 
@@ -58,10 +55,19 @@ a:-webkit-any-link {
 /* Reset some default styles */
 * {
     margin: 0;
+    top:0;
+    padding: 0%;
    /* padding: 0;*/
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
-
+.vg-page .page-home #home
+{
+    top: 0;
+}
+.page-home
+{
+    margin-top: 0;
+}
 /* Define the split layout */
 .split-layout {
     display: flex;
@@ -70,6 +76,7 @@ a:-webkit-any-link {
 
 /* Style the grey side */
 .white-side {
+    
     flex: 30;
     background-color: #fff;
 }

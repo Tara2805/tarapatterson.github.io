@@ -11,7 +11,6 @@
   
   .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
   }
   
   .nav-link:hover, .nav-link:focus {
@@ -34,8 +33,6 @@
   
   .nav-tabs .nav-link {
     border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
   }
   
   .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -55,11 +52,6 @@
     border-color: #dee2e6 #dee2e6 #fff;
   }
   
-  .nav-tabs .dropdown-menu {
-    margin-top: -1px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
   
   .nav-pills .nav-link {
     border-radius: 0.25rem;
@@ -120,7 +112,6 @@
   
   .navbar-brand {
     display: inline-block;
-    padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
@@ -154,8 +145,6 @@
   
   .navbar-text {
     display: inline-block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
   }
   
   .navbar-collapse {
