@@ -31,3 +31,10 @@ function App() {
       </Router>
     );
   }
+  var $grid = $('.gridder').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true
+  })
+  $('.grid').isotope({
+    itemSelector: '.grid-item'
+  });
