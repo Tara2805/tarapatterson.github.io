@@ -9,18 +9,17 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
       rel="stylesheet"
     />
-    <!-- https://fonts.google.com/ -->
     <link
-      href="node_modules\@fancyapps\fancybox\dist\jquery.fancybox.min.css"
-      rel="stylesheet"
-    />
+      href="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
+      rel="stylesheet"/>  
+
+    <link rel="stylesheet" href="../css/animations.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />    
+    <link rel="stylesheet" href="../css/bootstrap.css" />  
     <link rel="stylesheet" href="../css/themify-icons.css" />
     <link rel="stylesheet" href="../css/maicons.css" />
-    <link rel="stylesheet" href="../css/animations.css" />
-    <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/toolbar.css" />
     <link rel="stylesheet" href="../vendors/nice-select.min.css" />
     <link rel="stylesheet" href="../vendors/owl.carousel.min.css" />
@@ -309,43 +308,11 @@
           <div class="badge badge-subhead">Portfolio</div>
         </div>
         <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
-        <!-- Not enough work yet to have filters... add this in future
-        <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
-          <button class="btn btn-theme-outline selected" data-filter="*">All</button>
-          <button class="btn btn-theme-outline" data-filter=".apps">Apps</button>
-          <button class="btn btn-theme-outline" data-filter=".template">Template</button>
-          <button class="btn btn-theme-outline" data-filter=".ios">IOS</button>
-          <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
-          <button class="btn btn-theme-outline" data-filter=".graphic">Graphic</button>
-          <button class="btn btn-theme-outline" data-filter=".wireframes">Wireframes</button>
-        </div>-->
-
-        <div class="gridder my-3">
-          <div class="grid-item apps wow zoomIn">
-            <div
-              class="img-place"
-              data-src="../images/work-9.jpg"
-              data-fancybox
-              data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>"
-            >
-              <img src="../images/work-9.jpg" alt="" />
-              <div class="img-caption">
-                <h5 class="fg-theme">Mobile Travel App</h5>
-                <p>Travel, Discovery</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item template wireframes wow zoomIn">
-            <div
-              class="img-place"
-              data-src="../images/work-9.jpg"
-              data-fancybox
-              data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>"
-            >
-              <img src="../images/work-9.jpg" alt="" />
-              <div class="img-caption">
-                <h5 class="fg-theme">Music App</h5>
-                <p>Musics</p>
+        <div class="projects">
+          <div class="project-slab wow zoomIn">
+           <!--TO DO-->
+          <div class="project-slab template wireframes wow zoomIn">
+            <!--TO DO-->
               </div>
             </div>
           </div>
@@ -376,42 +343,13 @@
                 <p>Health, Drugs</p>
               </div>
             </div>
-          </div>
-          <div class="grid-item apps ios wow zoomIn">
-            <div
-              class="img-place"
-              data-src="../images/work-9.jpg"
-              data-fancybox
-              data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>"
-            >
-              <img src="../images/work-9.jpg" alt="" />
-              <div class="img-caption">
-                <h5 class="fg-theme">Musics Discover</h5>
-                <p>Musics, Dashboard</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item graphic ui-ux wireframes wow zoomIn">
-            <div
-              class="img-place"
-              data-src="../images/work-9.jpg"
-              data-fancybox
-              data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>"
-            >
-              <img src="../images/work-9.jpg" alt="" />
-              <div class="img-caption">
-                <h5 class="fg-theme">Game Streaming</h5>
-                <p>Games, Streaming</p>
-              </div>
-            </div>
-          </div>
-        </div>
+          <
         <!-- End gridder -->
         <div class="text-center wow fadeInUp">
-          <a href="javascript:void(0)" class="btn btn-theme">Load More</a>
+          <a href="javascript:void(0)" class="btn btn-theme"></a>
         </div>
       </div>
-    </div>
+      
     <!-- End Portfolio page -->
 
     <!--
@@ -480,6 +418,7 @@
     <!-- Contact -->
     <div class="vg-page page-contact" id="contact">
       <div class="container-fluid">
+        <br>
         <div class="text-center wow fadeInUp">
           <div class="badge badge-subhead">Contact</div>
         </div>
@@ -541,7 +480,7 @@
 
     <!-- Footer -->
     <div class="vg-footer">
-      <h1 class="text-center">Virtual Folio</h1>
+      <h5 class="text-center">Virtual Folio</h5>
       <div class="container">
         <div class="row">
           <div class="col-lg-4 py-3">
@@ -560,35 +499,22 @@
       </div>
     </div>
     <!-- End footer -->
-    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="../js/app.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js\app.js"></script>
     <script src="../js/toolbar.js"></script>
     <script src="../vendors/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="node_modules\@fancyapps\fancybox\dist\jquery.fancybox.min.js"></script>
     <script src="../js/animateNumber.min.js"></script>
     <script src="../vendor/waypoints.min.js"></script>
     <script src="../js/google-maps.js"></script>
-    <script src="../vendor/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/isotope/3.0.6/isotope.pkgd.min.js"></script>
     <script src="../vendor/jquery.nice-select.min.js"></script>
     <script src="../vendor/owl.carousel.min.js"></script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"
-    ></script>
-    <script src="node_modules\isotope-layout\dist\isotope.pkgd.min.js"></script>
-  </body>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+    </body>
+    
 </html>
