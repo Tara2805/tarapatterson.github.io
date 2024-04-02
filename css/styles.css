@@ -5,6 +5,13 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Raleway", sans-serif;
 }
+
+#home {
+  background-image: url(../images/laptop.jpg);
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image within the container */
+}
+
 /*social icons*/
 /*display css & positioning & margins */
 .links-socials {
