@@ -90,59 +90,21 @@ a:-webkit-any-link {
   /* padding: 0;*/
   box-sizing: border-box;
 }
+.opening {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh; /* Adjust the height to cover only the top section */
+  top: 0;
+  left: 0;
+
+  z-index: -1; /* Ensure the image stays behind the content */
+}
 .vg-page .page-home #home {
   top: 0;
 }
 .page-home {
   margin-top: 0;
-}
-/* Define the split layout */
-.split-layout { 
-  position: inherit;
-  display: flex;
-  height: 40vh;
-}
-
-/* Style the grey side */
-.white-side { 
-  flex: 30;
-  background-color: #fff;
-}
-
-/* Style the white side */
-.green-side {
-  flex: 70;
-  background-color: #6f90d1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-/* Style the circular image */
-.circle-container {
-  width: 15%;
-  border-radius: 50%;
-  background-color: #2c353c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("images/me.jpg"); /* Set your image URL here */
-  background-size: cover; /* Make the background image cover the container */
-  background-position: center; /* Center the background image */
-  box-shadow: 0 0 10px rgba(44, 53, 60);
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -70%);
-  -webkit-transform: translate(-50%, -70%);
-}
-
-.circle-image {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 50%;
-  border: 8px solid #2c353c;
 }
 
 /* Apply styles to .circle-image when the screen width is 600px or less */
@@ -184,6 +146,12 @@ a:-webkit-any-link {
   align-items: flex-end; /* Align items to the left */
   margin: 1rem;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Ensure the social links stay on top of the content */
+
 }
 
 /*add margins between each icon */
@@ -192,7 +160,6 @@ a:-webkit-any-link {
 }
 
 /*combined css to position icons at the bottom left of white container*/
-.white-side,
 .links-socials a {
   display: flex;
   justify-content: flex-start;

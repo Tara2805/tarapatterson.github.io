@@ -7,12 +7,14 @@
 }
 /* Page */
 .vg-page {
-
-margin-bottom: 51px;
+  position: relative;
+  display: block;
+  padding: 80px 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 .page-home .navbar {
-  position: absolute;
   align-items: center;
   padding-left: 15px;
   left: 0;
