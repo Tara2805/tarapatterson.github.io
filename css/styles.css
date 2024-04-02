@@ -111,7 +111,7 @@ a:-webkit-any-link {
 /* Style the white side */
 .green-side {
   flex: 70;
-  background-color: #d9ead3;
+  background-color: #6f90d1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,7 +336,7 @@ a:-webkit-any-link {
 .page-home .badge {
     padding: 16px 24px;
     background-color: rgba(239, 56, 36, 0.15);
-    color: #146d18;
+    color: #6f90d1;
     text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
     font-size: 16px;
     border-radius: 40px;
@@ -1134,45 +1134,45 @@ a:-webkit-any-link {
 }
 
 .fg-theme-green {
-    color: #8cc63f !important;
+    color: #6f90d1 !important;
 }
 
 .fg-theme {
-    color: #557629 !important;
+    color: #6f90d1 !important;
 }
 
 /* Theme Green */
 .fg-theme .badge-subhead  {
     background-color: rgba(139, 198, 63, 0.15);
-    color: #8cc63f;
+    color: #6f90d1;
   }
   
   .fg-theme .filterable-button .btn.selected,
   .fg-theme.filterable-button .btn:focus {
-    background-color: #8cc63f;
+    background-color: #6f90d1;
     color: #fff;
-    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #8cc63f;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #6f90d1;
   }
   
   .fg-theme .page-home .badge {
     background-color: rgba(139, 198, 63, 0.15);
-    color: #8cc63f;
+    color: #6f90d1;
   }
   
   .fg-theme .page-about .img-place::before {
-    border-color: #8cc63f;
+    border-color: #6f90d1;
   }
   
   .fg-theme.timeline li:first-child .title {
-    background-color: #8cc63f;
+    background-color: #6f90d1;
   }
   
   .fg-theme .timeline li:first-child::before {
-    background-color: #8cc63f;
-    box-shadow: 0 0 0 2px #8cc63f;
+    background-color: #6f90d1;
+    box-shadow: 0 0 0 2px #6f90d1;
   }
   
   .fg-theme .post-grid .post-category {
-    color: #8cc63f;
+    color: #6f90d1;
   }
   
