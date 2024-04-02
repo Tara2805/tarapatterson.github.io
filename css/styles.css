@@ -97,13 +97,14 @@ a:-webkit-any-link {
   margin-top: 0;
 }
 /* Define the split layout */
-.split-layout {
+.split-layout { 
+  position: inherit;
   display: flex;
-  height: 50vh;
+  height: 40vh;
 }
 
 /* Style the grey side */
-.white-side {
+.white-side { 
   flex: 30;
   background-color: #fff;
 }

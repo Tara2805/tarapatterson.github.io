@@ -2,14 +2,13 @@
  *  8. Navigation 
  */
  .sticky {
-    top: 0;
-    z-index: 999;
+  top: 0;
+  z-index: 999;
 }
 /* Page */
 .vg-page {
-  position: relative;
 
-  margin:0;
+margin-bottom: 51px;
 }
 
 .page-home .navbar {
