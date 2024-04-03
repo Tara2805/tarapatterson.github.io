@@ -317,13 +317,24 @@
   box-shadow: none;
 }
 
+@media (max-width: 768px) {
+  .grid-container {
+      flex-direction: column; /* Stack cards in a column */
+      align-items: center; /* Center align cards */
+  }
 
+  .grid-item {
+      flex: 0 0 90%; /* Full width for stacked cards */
+      margin-bottom: 20px; /* Add spacing between stacked cards */
+  }
+}
 
 
 /* Footer */
 .vg-footer {
-  position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0;
   padding: 10px 0;
   background-color: #bebebe;
@@ -358,6 +369,49 @@
   box-shadow: none;
   border-radius: 0 4px 4px 0;
   z-index: 9;
+}
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .vg-footer {
+    padding: 20px 0;
+  }
+
+  .footer-info {
+    max-width: 100%;
+    font-weight: 500;
+  }
+
+  .vg-footer .form-control {
+    margin-top: 10px;
+  }
+
+  .vg-footer .list-unstyled,
+  .vg-footer p {
+    text-align: center;
+    margin: 0;
+  }
+  .vg-footer form .btn-theme {
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .vg-footer p
+  {
+    font-size: light;
+    padding: 0%;
+    margin-top: 0%;
+    align-items: center;
+    position: relative;
+  }
+
+  .divider
+  {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    margin-top: 5px;
+  }
 }
 
 /* Theme color style */
