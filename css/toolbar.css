@@ -2,7 +2,7 @@
   display: block;
   margin: -5px 0 16px 0;
   max-width: 150px;
-  border-bottom: 2px dashed #9FA2AB;
+  border-bottom: 4px double  #6fc0fe;
 }
 
 .badge-subhead {
@@ -206,8 +206,9 @@
   background-color: #747474;
   color: #fff;
   font-weight: 500;
-  border-radius: 30px 0 60px 30px;
-}
+  border-radius: 30px 0px 60px 0px;
+  /* transform: rotate(1deg); */
+} 
 
 .timeline li .details {
   background-color: #f4f5f8;
@@ -324,9 +325,9 @@
   position: relative;
   display: block;
   margin: 0;
-  padding: 50px 0;
-  background-color: #171925;
-  color: #9FA2AB;
+  padding: 10px 0;
+  background-color: #bebebe;
+  color: #feffff;
 }
 
 .footer-info {
@@ -335,8 +336,7 @@
 
 .vg-footer .list-unstyled a,
 .vg-footer .list-unstyled li {
-  margin-bottom: 6px;
-  font-size: 21px;
+  font-size: 14px;
   color: #fff;
 }
 
@@ -355,8 +355,6 @@
 
 .vg-footer form .btn-theme {
   margin: 0;
-  padding-top: 14px;
-  padding-bottom: 14px;
   box-shadow: none;
   border-radius: 0 4px 4px 0;
   z-index: 9;
