@@ -1,6 +1,7 @@
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway&display=swap");
 
+
 body {
   font-family: "Inter", "sans-serif";
   font-family: "Raleway", "sans-serif";
@@ -73,7 +74,7 @@ body {
     border-color: transparent;
 }
  :root {
-  --theme-blue: #6fc0fe;
+  --site-theme: #6fc0fe;
 }
 
 /* Light */
@@ -192,7 +193,7 @@ a:hover, a:active {
   background-image: linear-gradient(to right, #6fc0fe 0%, #8490ff 100%) !important;
 }
 
-.bg-theme-blue {
+.bg-site-theme {
   background-color: #2960f7 !important;
 }
 
@@ -539,62 +540,68 @@ animation-name: anim-effect-2;
 }
 
 /* Theme Blue  -colour theme for page */
-.theme-blue .bg-theme {
+.site-theme .bg-theme {
   background-color: #6fc0fe !important;
 }
 
-.theme-blue .fg-theme {
+.site-theme .fg-theme {
   color: #6fc0fe !important;
 }
 
-.theme-blue .btn-theme {
+.site-theme .btn-theme {
   background-color: #6fc0fe;
   color: #fff;
 }
 
-.theme-blue .btn-theme:hover {
+.site-theme .btn-theme:hover {
   background-color: #6fc0fe;
   color: #fff;
 }
 
-.theme-blue .btn-theme:focus {
+.site-theme .btn-theme:focus {
   box-shadow: 0 0 0 3px #fff, 0 0 0 5px #6fc0fe;
 }
 
-.theme-blue .btn-theme-outline {
+.site-theme .btn-theme-outline {
   color: #6fc0fe;
   box-shadow: 0 0 0 2px #6fc0fe;
 }
 
-.theme-blue .btn-theme-outline:hover {
+.site-theme .btn-theme-outline:hover {
   background-color: #6fc0fe;
   color: #fff;
 }
 
-.theme-blue .btn-theme-outline:focus {
+.site-theme .btn-theme-outline:focus {
   background-color: #6fc0fe;
   color: #fff;
   box-shadow: 0 0 0 3px #fff, 0 0 0 5px #6fc0fe;
 }
 
-.theme-blue .btn-fab {
+.site-theme .btn-fab {
   background-color: #6fc0fe;
   color: #fff;
 }
 
-.theme-blue .btn-fab:hover {
+.site-theme .btn-fab:hover {
   background-color: #6fc0fe;
   color: #fff;
 }
 
-.theme-blue .progress {
+.site-theme .progress {
   box-shadow: 0 0 0 2px #6fc0fe;
 }
 
-.theme-blue .progress-bar {
+.site-theme .progress-bar {
   background-color: #6fc0fe;
 }
 
-.theme-blue .theme-list li::before {
+.site-theme .theme-list li::before {
   border-color: #6fc0fe;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

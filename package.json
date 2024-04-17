@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
+    "@splidejs/splide": "^4.1.4",
     "bootstrap": "^5.3.2",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.7.1",

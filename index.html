@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header -->
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Title -->
   <title>Tara Patterson - About Page</title>
+  <!-- Stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
   <link href="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
-
   <link rel="stylesheet" href="../css/animations.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../node_modules/@splidejs/splide/dist/css/splide.min.css">
   <link rel="stylesheet" href="../css/bootstrap.css" />
   <link rel="stylesheet" href="../css/themify-icons.css" />
   <link rel="stylesheet" href="../css/maicons.css" />
@@ -20,31 +23,29 @@
   <link rel="stylesheet" href="../vendors/nice-select.min.css" />
   <link rel="stylesheet" href="../vendors/owl.carousel.min.css" />
   <link rel="stylesheet" href="../vendors/animate.css" />
-
-  <!--For future use
-        https://getbootstrap.com/
-        https://fontawesome.com/
-        https://fonts.google.com/ -->
-
-  <title>My Portfolio</title>
 </head>
+<!-- Body -->
+<!-- give the body a class for styling -->
 
-<body class="theme-blue">
+<body class="site-theme">
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
   </div>
-
+  <!-- adding the first section of my site -->
+  <!-- reference to the bg-image here -->
   <div class="vg-page page-home" id="home" style="background-image: url(../images/coding.jpg)">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky-top" data-offset="500">
       <div class="container">
+        <!-- my social links -->
         <a href="https://www.linkedin.com/in/tara-patterson-a2098b195/" target="_blank" rel="noopener"
           class="navbar-brand">Linkedin</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true"
           title="linkedin">
           <span class="ti-menu"></span>
         </button>
+        <!-- adding the navbar links and names -->
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
@@ -71,10 +72,12 @@
     </div>
     <!-- End Navbar -->
     <!-- Caption header -->
+    <!-- adding some animation to our welcome -->
     <div class="caption-header text-center wow zoomInDown">
       <h5 class="fw-normal mb-1 mt-0">Welcome</h5>
       <h1 class="fw-normal mb-4">I'm <b class="fg-theme">Tara</b> Patterson</h1>
       <div class="badge mb-4">Developer & Cyber Analyst</div>
+      <!-- my social links -->
       <div class="social">
         <a href="https://www.linkedin.com/in/tara-patterson-a2098b195/" target="_blank" rel="noopener" title="linkedin">
           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="5em" width="5em"
@@ -93,6 +96,7 @@
       </div>
     </div>
   </div> <!-- End Caption header -->
+  <!-- ABOUT SECTION -->
   <div class="vg-page page-about" id="about">
     <div class="container py-5">
       <div class="row">
@@ -105,72 +109,83 @@
           <h1 class="fw-light">Tara Patterson</h1>
           <h5 class="fg-theme mb-3">1st Class Honours Graduate</h5>
           <p class="text-muted">
-            I am exploring elements of Web development, Cyber Security,
-            Digital Forensics and other related fields. I am working on
+            I am exploring elements of Web development, full stack engineering,
+            Digital Forensics, DevSecOps and other related fields. I am working on
             multiple personal projects to display my skills and potential. I
-            am looking for a graduate programme which would allow me to learn
+            am looking for a graduate role which would allow me to learn
             in real time and understand the fundamentals of company computing.
           </p>
           <ul class="theme-list">
             <li><b>From:</b> Belfast, Northern Ireland</li>
             <li><b>Lives In:</b> Europe</li>
             <li><b>Open to:</b> Remote & Hybrid working</li>
-            <li><b>Gender:</b> Female</li>
+            <li><b>Ready?</b> YES!!</li>
           </ul>
+          <!-- Link in my CV here -->
           <a href="path.pdf" download="filename.pdf">
             <button class="btn btn-theme-outline">Download CV</button></a>
         </div>
       </div>
     </div>
-
+    <!-- EDUCATION SECTION -->
     <div class="container pt-5" id="education">
       <div class="row">
         <div class="col-md-6 wow fadeInRight">
           <h2 class="fw-normal">Education</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
+              <div class="title">2024 - Current</div>
+              <div class="details">
+                <h5>CFG Full Stack Engineering nano Degree</h5>
+                <small class="fg-theme">Code First Girls</small>
+                <p></p>
+              </div>
+            </li>
+            <li>
               <div class="title">2023</div>
               <div class="details">
                 <h5>Digital Forensics and security</h5>
                 <small class="fg-theme">University of Derby</small>
-                <p>ADD</p>
-              </div>
-            </li>
-            <li>
-              <div class="title">2019</div>
-              <div class="details">
-                <h5>A-levels</h5>
-                <small class="fg-theme">Grammar school</small>
-                <p>ADD</p>
+                <p>1st Class Bachelors(Hons)</p>
               </div>
             </li>
           </ul>
         </div>
+        <!-- EXPERIENCE SECTION -->
         <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms" id="experience">
           <h2 class="fw-normal">Experience</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
+              <div class="title">2023 - Current</div>
+              <div class="details">
+                <h5>Freelancer</h5>
+                <small class="fg-theme"></small>
+                <p>IT Support</p>
+                <p>Social media Manager</p>
+              </div>
+            </li>
+            <li>
               <div class="title">2023</div>
               <div class="details">
                 <h5>Computing Internship</h5>
-                <small class="fg-theme">Krankikom</small>
-                <p>ADD</p>
+                <small class="fg-theme"></small>
+                <p>3 month mini internship in web development</p>
               </div>
             </li>
             <li>
               <div class="title">2022</div>
               <div class="details">
-                <h5>Development Analyst</h5>
+                <h5>Software Development Analyst</h5>
                 <small class="fg-theme">CitiBank</small>
-                <p>ADD</p>
+                <p>12 month placement scheme as a full time employee</p>
               </div>
             </li>
             <li>
-              <div class="title">2017-2022</div>
+              <div class="title">2016-2022</div>
               <div class="details">
                 <h5>Hospitality</h5>
-                <small class="fg-theme">Belle Isle</small>
-                <p>ADD</p>
+                <small class="fg-theme">Belle Isle & Premier Inn</small>
+                <p></p>
               </div>
             </li>
           </ul>
@@ -178,6 +193,7 @@
       </div>
     </div>
   </div>
+  <!-- SKILLS SECTION -->
   <div class="vg-page page-service" id="Skills">
     <div class="container">
       <div class="text-center wow fadeInUp">
@@ -192,7 +208,6 @@
             </div>
             <div class="caption">
               <h4 class="fg-theme">Front-end</h4>
-              <p>Lorem Ipsum</p>
             </div>
           </div>
         </div>
@@ -203,7 +218,6 @@
             </div>
             <div class="caption">
               <h4 class="fg-theme">Digital Forensics</h4>
-              <p>Lorem Ipsum</p>
             </div>
           </div>
         </div>
@@ -214,7 +228,6 @@
             </div>
             <div class="caption">
               <h4 class="fg-theme">Cyber Security</h4>
-              <p>Lorem Ipsum</p>
             </div>
           </div>
         </div>
@@ -225,7 +238,6 @@
             </div>
             <div class="caption">
               <h4 class="fg-theme">IT Support</h4>
-              <p>Lorem Ipsum</p>
             </div>
           </div>
         </div>
@@ -236,209 +248,139 @@
             </div>
             <div class="caption">
               <h4 class="fg-theme">Back-end</h4>
-              <p>Lorem Ipsum</p>
             </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-server"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Data</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PORTFOLIO SECTION -->
+      <div class="vg-page page-portfolio" id="portfolio">
+        <div class="container">
+          <div class="text-center wow fadeInUp">
+            <div class="badge badge-subhead">Portfolio</div>
+          </div>
+          <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
+          <div class="projects">
+            <div class="project-slab wow zoomIn">
+              <div class="project-slab template wireframes wow zoomIn">
+              </div>
+            </div>
+          </div>
+          <div class="grid-container">
+            <div class="grid-item apps ios wow zoomIn">
+              <div class="img-place" data-src="../images/work-9.jpg" data-fancybox
+                data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
+                <img src="../images/laptop.jpg" alt="" />
+                <div class="img-caption">
+                  <h5 class="fg-theme">Working with APIs</h5>
+                  <p>Coming soon</p>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item graphic ui-ux wow zoomIn">
+              <div class="img-place" data-src="../images/work-9.jpg" data-fancybox
+                data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
+                <img src="../images/laptop.jpg" alt="" />
+                <div class="img-caption">
+                  <h5 class="fg-theme">My website</h5>
+                  <p>You're browsing it right now</p>
+                </div>
+              </div>
+            </div>
+            <!--  ADD MORE?-->
+            <div class="grid-item graphic ui-ux wow zoomIn">
+              <div class="img-place" data-src="../images/laptop.jpg" data-fancybox
+                data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
+                <img src="../images/laptop.jpg" alt="" />
+                <div class="img-caption">
+                  <h5 class="fg-theme">SQL</h5>
+                  <p>Coming soon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End gridder -->
+          <div class="text-center wow fadeInUp">
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-4 col-xl-3">
-      <div class="card card-service wow fadeInUp">
-        <div class="icon">
-          <span class="ti-server"></span>
-        </div>
-        <div class="caption">
-          <h4 class="fg-theme">Data</h4>
-          <p>Lorem Ipsum</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Maybe in the future add...
-    <div class="vg-page page-funfact" style="background-image: url(../images/);">
+    <div class="vg-page page-portfolio" id="portfolio">
       <div class="container">
-        <div class="row section-counter">
-          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-            <h1 class="number" data-number="768">768</h1>
-            <span>Clients</span>
-          </div>
-          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-            <h1 class="number" data-number="230">230</h1>
-            <span>Project Completed</span>
-          </div>
-          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-            <h1 class="number" data-number="97">97</h1>
-            <span>Projects Ongoing</span>
-          </div>
-          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-            <h1 class="number" data-number="699">699</h1>
-            <span>Client Satisfaction</span>
-          </div>
+    <div class="text-center wow fadeInUp">
+      <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="images/coding.jpg" alt="">
+            </li>
+            <li class="splide__slide">
+              <img src="images/coding.jpg" alt="">
+            </li>
+            <li class="splide__slide">
+              <img src="images/coding.jpg" alt="">
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>-->
+      </section>
+  </div></div></div>
 
-  <!-- Portfolio page -->
-  <div class="vg-page page-portfolio" id="portfolio">
+  <!-- End Portfolio page -->
+  </div>
+  <!-- Footer -->
+  <div class="vg-footer" id="contact">
+    <!-- <h1 class="text-center"></h1> -->
     <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Portfolio</div>
-      </div>
-      <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
-      <div class="projects">
-        <div class="project-slab wow zoomIn">
-          <!--TO DO-->
-          <div class="project-slab template wireframes wow zoomIn">
-            <!--TO DO-->
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="fs-small footer-info">
+            <p>Where to find me</p>
+            <hr class="divider">
+            <p class="fs-small fg-white">1600 Amphitheatre Parkway Mountain View, California 94043 US</p>
           </div>
         </div>
-      </div>
-      <div class ="grid-container">
-      <div class="grid-item apps ios wow zoomIn">
-        <div class="img-place" data-src="../images/work-9.jpg" data-fancybox
-          data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
-          <img src="../images/work-9.jpg" alt="" />
-          <div class="img-caption">
-            <h5 class="fg-theme">Working with APIs</h5>
-            <p>Weather API python console app</p>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="fs-small float-lg-right">
+            <p>Follow me</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="grid-item graphic ui-ux wow zoomIn">
-        <div class="img-place" data-src="../images/work-9.jpg" data-fancybox
-          data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
-          <img src="../images/work-9.jpg" alt="" />
-          <div class="img-caption">
-            <h5 class="fg-theme">My website</h5>
-            <p>You're browsing it right now</p>
+        <div class="col-md-6 col-lg-3 py-3">
+          <div class="fs-small float-lg-right">
+            <p>Contact me</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li>33333333333333333</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
           </div>
         </div>
-      </div>
-     <!--  ADD MORE?-->
-     <div class="grid-item graphic ui-ux wow zoomIn">
-      <div class="img-place" data-src="../images/laptop.jpg" data-fancybox
-        data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
-        <img src="../images/laptop.jpg" alt="" />
-        <div class="img-caption">
-          <h5 class="fg-theme">SQL</h5>
-          <p>A simple Library database</p>
-        </div>
-      </div>
-    </div>
-  </div>
-        <!-- End gridder -->
-        <div class="text-center wow fadeInUp">
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- End Portfolio page -->
-    <!--
-     Blog 
-    <div class="vg-page page-blog" id="blog">
-      <div class="container">
-        <div class="text-center">
-          <div class="badge badge-subhead wow fadeInUp">Blog</div>
-        </div>
-        <h1 class="text-center fw-normal wow fadeInUp">Latest Post</h1>
-        <div class="row post-grid">
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card">
-              <div class="img-place">
-                <img src="../images/work-9.jpg" alt="" />
-              </div>
-              <div class="caption">
-                <a href="javascript:void(0)" class="post-category"
-                  >Technology</a
-                >
-                <a href="#" class="post-title">Invision design forward fund</a>
-                <span class="post-date"
-                  ><span class="sr-only">Published on</span> May 22, 2018</span
-                >
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-2 py-3">
+          <div class="fs-small float-lg-right">
+            <p>Resources</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card">
-              <div class="img-place">
-                <img src="../images/work-9.jpg" alt="" />
-              </div>
-              <div class="caption">
-                <a href="javascript:void(0)" class="post-category">Business</a>
-                <a href="#" class="post-title"
-                  >Announcing a plan for small teams</a
-                >
-                <span class="post-date"
-                  ><span class="sr-only">Published on</span> May 22, 2018</span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeInUp">
-            <div class="card">
-              <div class="img-place">
-                <img src="../images/work-9.jpg" alt="" />
-              </div>
-              <div class="caption">
-                <a href="javascript:void(0)" class="post-category">Design</a>
-                <a href="#" class="post-title">5 basic tips for illustrating</a>
-                <span class="post-date"
-                  ><span class="sr-only">Published on</span> May 22, 2018</span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 text-center py-3 wow fadeInUp">
-            <a href="blog-fullbar.html" class="btn btn-theme">See All Post</a>
-          </div>
-        </div>
-      </div>
-    </div>
-     End blog -->
-    </div>
-    <!-- Footer -->
-    <div class="vg-footer" id="contact">
-      <!-- <h1 class="text-center"></h1> -->
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 py-3">
-            <div class="fs-small footer-info">
-              <p>Where to find me</p>
-              <hr class="divider">
-              <p class="fs-small fg-white">1600 Amphitheatre Parkway Mountain View, California 94043 US</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 py-3">
-            <div class="fs-small float-lg-right">
-              <p>Follow me</p>
-              <hr class="divider">
-              <ul class="list-unstyled">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Youtube</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 py-3">
-            <div class="fs-small float-lg-right">
-              <p>Contact me</p>
-              <hr class="divider">
-              <ul class="list-unstyled">
-                <li>33333333333333333</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2 py-3">
-            <div class="fs-small float-lg-right">
-              <p>Resources</p>
-              <hr class="divider">
-              <ul class="list-unstyled">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                </ul>
-        </div>
         </div>
       </div>
     </div>
@@ -458,8 +400,12 @@
     <script src="https://cdn.jsdelivr.net/isotope/3.0.6/isotope.pkgd.min.js"></script>
     <script src="../vendor/jquery.nice-select.min.js"></script>
     <script src="../vendor/owl.carousel.min.js"></script>
+    <script src="../node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+    <script>
+      new Splide('#image-carousel').mount();
+    </script>
 </body>
 
 </html>

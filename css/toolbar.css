@@ -416,37 +416,37 @@
 
 /* Theme color style */
 /* Theme Blue */
-.theme-blue .badge-subhead  {
+.site-theme .badge-subhead  {
   background-color: rgba(41, 96, 247, 0.15);
   color: #6fc0fe;
 }
 
-.theme-blue .filterable-button .btn.selected,
-.theme-blue .filterable-button .btn:focus {
+.site-theme .filterable-button .btn.selected,
+.site-theme .filterable-button .btn:focus {
   background-color: #6fc0fe;
   color: #fff;
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #6fc0fe;
 }
 
-.theme-blue .page-home .badge {
+.site-theme .page-home .badge {
   background-color: rgba(41, 96, 247, 0.15);
   color: #6fc0fe;
 }
 
-.theme-blue .page-about .img-place::before {
+.site-theme .page-about .img-place::before {
   border-color: #6fc0fe;
 }
 
-.theme-blue .timeline li:first-child .title {
+.site-theme .timeline li:first-child .title {
   background-color: #6fc0fe;
 }
 
-.theme-blue .timeline li:first-child::before {
+.site-theme .timeline li:first-child::before {
   background-color: #6fc0fe;
   box-shadow: 0 0 0 2px #6fc0fe;
 }
 
-.theme-blue .post-grid .post-category {
+.site-theme .post-grid .post-category {
   color: #6fc0fe;
 }
 

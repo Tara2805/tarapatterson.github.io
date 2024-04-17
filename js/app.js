@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import Splide from '@splidejs/splide';
 
-import { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { withRouter } from 'react-router-dom';
 
 function ScrollToTop({ history }) {
@@ -16,8 +17,6 @@ function ScrollToTop({ history }) {
 
   return (null);
 }
-
-export default withRouter(ScrollToTop);
 
 function App() {
     return (
@@ -270,3 +269,40 @@ function App() {
     }
     counterInit();
   });
+
+  // const Slider = () => {
+  //   const sliderRef = useRef(null);
+  
+  //   useEffect(() => {
+  //     // Initialize Splide when the component mounts
+  //     const splide = new Splide(sliderRef.current, {
+  //       type: 'loop',
+  //       perPage: 1,
+  //       autoplay: true,
+  //     });
+  
+  //     // Destroy Splide when the component unmounts to prevent memory leaks
+  //     return () => {
+  //       splide.destroy();
+  //     };
+  //   }, []);
+  
+  //   return (
+  //     <div ref={sliderRef} className="splide">
+  //       <div className="splide__track">
+  //         <ul className="splide__list">
+  //           <li className="splide__slide">Slide 1</li>
+  //           <li className="splide__slide">Slide 2</li>
+  //           <li className="splide__slide">Slide 3</li>
+  //           {/* Add more slides as needed */}
+  //         </ul>
+  //       </div>
+  //     </div>
+  //   );
+  // };
+  
+  // export default Slider;
+
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' ).mount();
+  } );
